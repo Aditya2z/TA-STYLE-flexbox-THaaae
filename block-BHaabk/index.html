@@ -1,0 +1,94 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- title of the page -->
+     <title>Flexbox-1</title>
+     <!-- linking stylesheet -->
+     <link rel="stylesheet" href="./assets/stylesheet/style.css">
+     <!-- linking font family -->
+     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+     <!-- linking font awesome -->
+     <script src="https://kit.fontawesome.com/eec6d21a06.js" crossorigin="anonymous"></script>
+ </head>
+ <body id="top">
+     <!-- header starts here -->
+     <header class="container">
+             <h1 class=" white">Ray-Ban</h1>
+             <nav>   
+                 <a href="#" class="white">HOME</a>
+                 <a href="#" class="white">AVIATORS</a>
+                 <a href="#" class="white">STORES</a>
+                 <a href="#" class="white">CONTACT</a>
+             </nav>
+     </header>
+     <!-- main content of the page -->
+     <main>
+        <!-- article section starts here -->
+         <section class="main">
+             <article class="container margin-5">
+                 <div class="width-45">
+                     <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde est ad accusamus voluptatem totam sapiente delectus accusantium cupiditate eveniet voluptatum a, blanditiis tempora ab magnam sed fugit fuga. Qui, expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum aspernatur omnis voluptatum repellat aut laboriosam maiores eos odio, veniam iste explicabo, optio esse ab nihil aliquam, provident consectetur rem?</p>
+                 </div>
+                 <figure class="width-45">
+                     <img src="./assets/media/abazie-uchenna-vxcDECnz4so-unsplash.jpg" alt="man wearing glasses">
+                 </figure>
+             </article>
+         </section>
+         <!-- article section ends here -->
+         <section>
+             <div class="container margin-5">
+                 <div class="width-26">
+                     <img src="./assets/media/adam-thomas-3Npd9GJEKrE-unsplash.jpg" alt="sunglasses">
+                 </div>
+                 <div class="width-26">
+                     <img src="./assets/media/amber-ahrens-D--SZxc7CuE-unsplash.jpg" alt="sunglasses">
+                 </div>
+                 <div class="width-26">
+                     <img src="./assets/media/daniel-lincoln-SttmdhoyRlk-unsplash.jpg" alt="sunglasses">
+                 </div>
+             </div>
+             <div class="container margin-5">
+                 <div class="width-26">
+                     <img src="./assets/media/ethan-robertson-SYx3UCHZJlo-unsplash.jpg" alt="sunglasses">
+                 </div>
+                 <div class="width-26">
+                     <img src="./assets/media/joey-nicotra-VDZAcY54cig-unsplash.jpg" alt="sunglasses">
+                 </div>
+                 <div class="width-26">
+                     <img src="./assets/media/varvara-grabova-EM7QObn-zAs-unsplash.jpg" alt="sunglasses">
+                 </div>
+             </div>
+         </section>
+     </main>
+     <!-- footer starts here -->
+     <footer class="container center">
+        <div>
+            <small class="gray">&copy; Untitled. Design:TEMPLATED. Images:Unsplash</small>
+        </div>
+        <nav>
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://pinterest.com" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="https://vimeo.com" target="_blank"><i class="fa-brands fa-vimeo-v"></i></a>
+        </nav>
+     </footer>
+ </body>
+ </html>
