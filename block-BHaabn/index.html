@@ -1,0 +1,76 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-2</title>
+    <!-- linking stylesheet -->
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+    <!-- adding font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- adding font awesome -->
+    <script src="https://kit.fontawesome.com/eec6d21a06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header of the page-->
+    <header class="container blue-bg padding">
+        <div class="container">
+            <figure>
+                <img src="./assets/media/alt.png" alt="logo of altcampus" class="logo">
+            </figure>
+            <h2 class="green">CAMPUS</h2>
+        </div>
+        <nav>
+           <a href="#" class="white">HOME</a>
+           <a href="#" class="green">GALLERY</a>
+           <a href="#" class="white">ABOUT</a> 
+        </nav>
+    </header>
+    <!-- main content of the page -->
+    <main>
+        <article>
+            <h1 class="red">GALLERY</h1>
+            <section class="container padding">
+                <figure class="image">
+                    <img src="./assets/media/01.png" alt="painting on canvas">
+                </figure>
+                <figure class="image">
+                    <img src="./assets/media/02.png" alt="girl looking at paintings">
+                </figure>
+                <figure class="image">
+                    <img src="./assets/media/03.png" alt="multiple paintings on corner of room">
+                </figure>
+            </section>
+            <section class="container padding">
+                <figure class="image">
+                    <img src="./assets/media/04.png" alt="girl in a hat looking at painting closely">
+                </figure>
+                <figure class="image">
+                    <img src="./assets/media/05.png" alt="antique paintings on a wall">
+                </figure>
+                <figure class="image">
+                    <img src="./assets/media/06.png" alt="hanging paintings">
+                </figure>
+            </section>
+        </article>
+    </main>
+    <!-- footer of the page-->
+    <footer class="container blue-bg padding">
+        <small class="gray">&copy;AltCampus</small>
+        <nav>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook gray"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter gray"></i></a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
