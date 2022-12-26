@@ -115,6 +115,16 @@ button{
     border: none;
     width: 100%;
     padding: 1rem;
+    color:#222946;
+    margin-left: .2rem;
+}
+.button img{
+    margin-right: .5rem;
+}
+.button span{
+    font-size: 1.2rem;
+    vertical-align: top;
+    font-weight: bold;
 }
 .radius{
     border-radius: 1rem;
