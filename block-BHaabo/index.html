@@ -1,0 +1,95 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-2</title>
+    <!-- linking stylesheet -->
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+    <!-- adding font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <!-- adding font awesome -->
+    <script src="https://kit.fontawesome.com/eec6d21a06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header of the page-->
+    <header class="container blue-bg padding">
+        <div class="container">
+            <figure>
+                <img src="./assets/media/alt.png" alt="logo of altcampus" class="logo">
+            </figure>
+            <h2 class="green">CAMPUS</h2>
+        </div>
+        <nav>
+           <a href="#" class="bell"><img src="./assets/icons/bell.svg" alt="notification bell"></a>
+           <a href="#" class="sarah">Sarah Jone</a>
+           <a href="#" class="user"><img src="./assets/icons/user.svg"></a> 
+        </nav>
+    </header>
+    <!-- main content of the page -->
+    <main class="container padding">
+        <aside class="blue radius">
+            <div class="blue radius">
+                <figure>
+                    <img src="./assets/icons/dashboard.svg" alt="dashboard icon">
+                </figure>
+                <h2>Dashboard</h2>
+            </div>
+            <div class=" blue radius orange">
+                <figure>
+                    <img src="./assets/icons/article.svg" alt="Articles icon">
+                </figure>
+                <h2>Articles</h2>
+            </div>
+            <div class="blue radius">
+                <figure>
+                    <img src="./assets/icons/analytics.svg" alt="Analytics icon">
+                </figure>
+                <h2>Analytics</h2>
+            </div>
+            <div class="blue radius">
+                <figure>
+                    <img src="./assets/icons/inbox.svg" alt="Inbox icon">
+                </figure>
+                <h2>Inbox</h2>
+            </div>
+            <div class="blue radius">
+                <figure>
+                    <img src="./assets/icons/setting.svg" alt="Setting icon">
+                </figure>
+                <h2>Settings</h2>
+            </div>
+            <button class="log-out radius button">
+                <img src="./assets/icons/log-out.svg" alt="logout icon">
+                <span>Log Out</span>
+            </button>
+        </aside>
+        <article class="radius">
+            <figure>
+                <img src="./assets/media/01.png" alt="writing on a wall">
+            </figure>
+            <h1>Why we are doing AltCampus?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestiae enim cum magni commodi dignissimos modi tenetur accusamus minima corporis! Quisquam quo est cumque hic perspiciatis amet mollitia. Nobis, laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga recusandae corrupti debitis distinctio ipsa </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam magnam at facere totam. Dignissimos minus ullam earum sequi voluptas vel, soluta placeat sit accusamus repellat veniam facilis hic, dolor harum. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="green-bg radius"><h2>Read More</h2></button>
+        </article>
+    </main>
+    <!-- footer of the page-->
+    <footer class="container blue-bg padding">
+        <small class="gray">&copy;AltCampus</small>
+        <nav>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook gray"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter gray"></i></a>
+        </nav>
+    </footer>
+</body>
+</html>
